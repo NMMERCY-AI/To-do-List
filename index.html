@@ -1,0 +1,74 @@
+<!-- Todo list  -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To do Task</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <img class="LOGO" src="/TO DO LIST/logo.svg" alt="Logo" />
+          <li class="Un">Message</li>
+          <li class="Un">Today's Task</li>
+          <li class="Un">Last Activity</li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- body part  -->
+    <div class="mainbox">
+      <div class="textbtn">
+        <h1>Today's Tasks</h1>
+        <div class="Time">
+          <div class="Day">Sunday</div>
+          <div class="Date">MAY 11</div>
+        </div>
+        <div class="btn Addtasks">
+          <img class="Size" src="/TO DO LIST/plus.svg" alt="plus sign" />
+          <h3>New Task</h3>
+        </div><!-- btn -->
+      </div><!-- text btn -->
+
+      <!-- Task Input Form -->
+      <div class="task-form">
+        <div class="form-content">
+          <div class="input-group">
+            <div class="input-label">
+              <span class="label-icon">📝</span>
+              <label>Task Title</label>
+            </div>
+            <input type="text" class="task-title-input" placeholder="Enter your task title">
+          </div>
+          <div class="input-group">
+            <div class="input-label">
+              <span class="label-icon">📋</span>
+              <label>Description</label>
+            </div>
+            <textarea class="task-description-input" placeholder="Enter task details"></textarea>
+          </div>
+          <div class="form-buttons">
+            <button class="cancel-task">
+              <span class="button-icon">✕</span>
+              Cancel
+            </button>
+            <button class="submit-task">
+              <span class="button-icon">✓</span>
+              Add Task
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="boxes">
+        <h2 class="Task"></h2>
+        <p class="Write"></p>
+      </div><!-- box -->
+    </div><!-- main box -->
+    <script src="main.js"></script>
+  </body>
+</html>
